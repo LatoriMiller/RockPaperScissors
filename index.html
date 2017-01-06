@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <meta charset="utf-8">
+
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Battle Your Computer</h1>
+      </div>
+        <br>
+        <h3>Choose one to play:</h3>
+      <img src="rock.png" alt="fist" height="300" width="300" onclick="rockChoice()">
+      <img src="paper.png" alt="hand" height="300" width="300" onclick="paperChoice()">
+      <img src="scissors.png" alt="peace sign" height="300" width="300" onclick="scissorsChoice()">
+      <br>
+      <h2 id="user"></h2>
+      <h2 id="computer"></h2>
+      <h1 id="winner"></h1>
+    </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="rps.js"></script>
+  </body>
+
+</html>
